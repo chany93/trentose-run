@@ -41,7 +41,7 @@ var Coach = {
         var expenditure = calories * distance;
         this._activities[this._program] += expenditure;
         
-        return expenditure;
+        return this._activities[this._program];
       }
       return null;
       
